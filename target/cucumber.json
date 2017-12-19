@@ -1,0 +1,379 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4807056330,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Turn ON/OFF Light",
+        "description": "",
+        "id": "lightbulb-testcase;turn-on/off-light",
+        "after": [
+          {
+            "result": {
+              "duration": 928533126,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27309805961,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on LightBulb page",
+            "match": {
+              "location": "LightBulbTestCasesStepDef.iAmOnLightBulbPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5457035206,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click switch OFF button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OFF",
+                  "offset": 15
+                }
+              ],
+              "location": "LightBulbTestCasesStepDef.iClickButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59894052,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see light is OFF",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OFF",
+                  "offset": 22
+                }
+              ],
+              "location": "LightBulbTestCasesStepDef.iShouldSeeLightIsAction(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5159033413,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click switch ON button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ON",
+                  "offset": 15
+                }
+              ],
+              "location": "LightBulbTestCasesStepDef.iClickButton(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113743620,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see light is ON",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ON",
+                  "offset": 22
+                }
+              ],
+              "location": "LightBulbTestCasesStepDef.iShouldSeeLightIsAction(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3811134165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Set Light to 60 percentage only",
+        "description": "",
+        "id": "lightbulb-testcase;set-light-to-60-percentage-only;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1164435603,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16005601891,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on LightBulb page",
+            "match": {
+              "location": "LightBulbTestCasesStepDef.iAmOnLightBulbPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5083189367,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should able to set the power \"60%\" of the light",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60%",
+                  "offset": 32
+                }
+              ],
+              "location": "LightBulbTestCasesStepDef.iShouldAbleToSetThePowerOfTheLight(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LightBulb TestCase",
+    "description": "This feature deals with the LightBulb page functionality",
+    "id": "lightbulb-testcase",
+    "keyword": "Feature",
+    "uri": "LightBulbTestCases.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3662706287,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login and check for PhpTravel booking",
+        "description": "",
+        "id": "php-travel-testcases;login-and-check-for-phptravel-booking;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1067750811,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17316977665,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on PhpTravels signin page",
+            "match": {
+              "location": "PhpTravelsStepDef.iAmOnPhpTravels()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1435210494,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter PhpTravels valid \"user@phptravels.com\" and \"demouser\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user@phptravels.com",
+                  "offset": 26
+                },
+                {
+                  "val": "demouser",
+                  "offset": 52
+                }
+              ],
+              "location": "PhpTravelsStepDef.iEnterValidAndAndClickOnLoginButton(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18877886471,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should able to see the Hotel, Flights and Tours tabs",
+            "match": {
+              "location": "PhpTravelsStepDef.iShouldAbleToSeeTheHotelFlightsAndToursTabs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4604990558,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login and check for PhpAdmin for Cupons Management",
+        "description": "",
+        "id": "php-travel-testcases;login-and-check-for-phpadmin-for-cupons-management;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1618332039,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.TearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10814503853,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on PhpAdmin signin page",
+            "match": {
+              "location": "PhpTravelsStepDef.iAmOnPhpAdmin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 701046313,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter PhpAdmin valid \"admin@phptravels.com\" and \"demoadmin\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@phptravels.com",
+                  "offset": 24
+                },
+                {
+                  "val": "demoadmin",
+                  "offset": 51
+                }
+              ],
+              "location": "PhpTravelsStepDef.iEnterValidAdminDetailsAndAndClickOnLoginButton(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11804434560,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should able to click coupon",
+            "match": {
+              "location": "PhpTravelsStepDef.iShouldAbleToClickCoupon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10562916935,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I provide coupon details for only All Tours",
+            "match": {
+              "location": "PhpTravelsStepDef.iShouldAbleToAddCouponAndSeeTheEntryOfNewCouponCreated()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Php Travel TestCases",
+    "description": "",
+    "id": "php-travel-testcases",
+    "keyword": "Feature",
+    "uri": "PhpTravels.feature"
+  }
+]

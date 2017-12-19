@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="153814" started-at="2017-12-19T05:44:34Z" finished-at="2017-12-19T05:47:08Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@215be6bb]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="153814" started-at="2017-12-19T05:44:34Z" finished-at="2017-12-19T05:47:08Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@215be6bb]" name="setUpClass" is-config="true" duration-ms="751" started-at="2017-12-19T16:44:34Z" finished-at="2017-12-19T16:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@215be6bb]" name="feature" duration-ms="70246" started-at="2017-12-19T16:44:35Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-12-19T16:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LightBulb TestCase]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@215be6bb]" name="feature" duration-ms="82547" started-at="2017-12-19T16:45:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-12-19T16:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Php Travel TestCases]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@215be6bb]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2017-12-19T16:47:08Z" finished-at="2017-12-19T16:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
